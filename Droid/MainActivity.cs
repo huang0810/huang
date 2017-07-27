@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Android.Content;
 
 namespace huang.Droid
 {
@@ -20,7 +21,14 @@ namespace huang.Droid
             // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.myButton);
 
-            button.Click += delegate { button.Text = $"{count++} clicks!"; };
+            button.Click += delegate {
+
+                //button.Text = $"{count++} clicks!";
+                //var intent = new Intent(this, typeof(MainFlow.MasterActivity));
+                var intent = new Intent(this, typeof(login.loginActivity));
+                StartActivity(intent);
+
+            };
         }
     }
 }
