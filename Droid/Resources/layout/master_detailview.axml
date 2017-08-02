@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/master_detailview_lbusername"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/master_detailview_lbusedescription"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/master_detailview_lbusername"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:id="@+id/master_detailview_btnweb"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/master_detailview_lbusedescription"
+        android:layout_margin="10dp"
+        android:text="Web"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/master_detailview_btnmap"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/master_detailview_btnweb"
+        android:layout_margin="10dp"
+        android:text="Map"
+        android:textSize="25sp"
+        />
+
+</RelativeLayout>

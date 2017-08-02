@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#cc2222"
+    >
+
+    <TextView
+        android:id="@+id/master_masterview_useritemview_lbname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#6ca887"
+        />
+
+    <TextView
+        android:id="@+id/master_masterview_useritemview_lbdescription"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#6ca887"
+        />
+
+</LinearLayout>
